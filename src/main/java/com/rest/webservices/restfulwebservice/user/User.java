@@ -20,6 +20,14 @@ public class User {
 
     }
 
+    public List<Post> getPosts() {
+        return posts;
+    }
+
+    public void setPosts(List<Post> posts) {
+        this.posts = posts;
+    }
+
     @Id
     @GeneratedValue
     private Integer id;
