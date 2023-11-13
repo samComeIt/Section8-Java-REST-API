@@ -7,6 +7,9 @@ values(10002, current_date(), 'Sam');
 insert into user_details(id, birth_date,name)
 values(10003, current_date(), 'John');
 
+insert into user_details(id, birth_date,name)
+values(10004, current_date(), 'Tony');
+
 insert into post(id, description, user_id)
 values(20001, 'I want to learn AWS', 10001);
 
@@ -18,3 +21,6 @@ values(20003, 'I want to learn AWS Vertified', 10002);
 
 insert into post(id, description, user_id)
 values(20004, 'I want to learn Multi Cloud', 10002);
+
+nsert into post(id, description, user_id)
+values(20005, 'I want to learn AI', 10003);
